@@ -110,3 +110,36 @@ See also the list of [contributors](https://github.com/your/project/contributors
 * Ganache-cli
 * Truffle
 * IPFS
+
+## Libraries used:
+Node: v1.18.1
+Truffle: v4.1.14
+Solidity: v0.4.24
+
+## Contracts Info
+Supply Chain -
+Txn: 0x689c041712d4d52d0cb39aacb16a15ab12d6cc06e0a10e55e4db8291c35f974e
+Contract Address: 0xe807d5061f4111e5a72e232ffec7a5545e5943e3
+
+ConsumerRole - 
+Txn: 0xc0dd9e3a1b1d5a124ad9fb2dbba6bc8e0d6a8036593eb78d540b25996bcfa32a
+Contract Address: 0x9fa83a3273448f9d58fec6cb275cea64f9dd0f6d
+
+RetailerRole - 
+Txn: 0x7e7e7ba524f888ebe20fd11eb52801039ddca559e5c8135d3191f8c7763c1482
+Contract Address: 0x91e5407542d1bc85d470ac78dd44404e32e82829
+
+DistributorRole - 
+Txn: 0xb052322427d1fa565bb6798ea00a2ffe1542aaca8e45f3d8a8d05f09ed8b0987
+Contract Address: 0xb0b4e1d15135632d6cf5468a88c74bbaab0bc344
+
+FarmerRole - 
+Txn: 0x6880564cc53d64e6d29e67897f964b9143e3e13053a10a3c67d2c20c7cc30125
+Contract Address: 0xe4ed5456703af8c0922f33977515f57e9c6286e1
+
+## UML:
+
+![](images/Coffee Supply chain Activity Diagram.jpeg)
+![](images/Coffee supply chain sequence diagram.jpeg)
+![](images/Coffee supply chain state diagram.jpeg)
+![](images/Coffee supply chain class diagram.jpeg)
