@@ -139,10 +139,10 @@ Contract Address: 0xe4ed5456703af8c0922f33977515f57e9c6286e1
 
 ## UML:
 
-![activity](UML/Coffee Supply chain Activity Diagram.jpeg)
+![activity](UML/Coffee Supply chain Activity Diagram.png)
 
-![sequence](UML/Coffee supply chain sequence diagram.jpeg)
+![sequence](UML/Coffee supply chain sequence diagram.png)
 
-![state](UML/Coffee supply chain state diagram.jpeg)
+![state](UML/Coffee supply chain state diagram.png)
 
-![class](UML/Coffee supply chain class diagram.jpeg)
+![class](UML/Coffee supply chain class diagram.png)
