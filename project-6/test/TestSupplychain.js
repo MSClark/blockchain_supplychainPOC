@@ -41,6 +41,14 @@ contract('SupplyChain', function(accounts) {
     console.log("Retailer: accounts[3] ", accounts[3])
     console.log("Consumer: accounts[4] ", accounts[4])
 
+    it("Assign roles", async() => {
+        const supplyChain = await SupplyChain.deployed()
+        await supplyChain.addFarmer(accounts[1]);
+        await supplyChain.addDistributor(accounts[2]);
+        await supplyChain.addRetailer(accounts[3]);
+        await supplyChain.addConsumer(accounts[4]);
+    })
+
     // 1st Test
     it("Testing smart contract function harvestItem() that allows a farmer to harvest coffee", async() => {
         const supplyChain = await SupplyChain.deployed()
